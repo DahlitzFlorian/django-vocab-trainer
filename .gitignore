@@ -1,0 +1,12 @@
+# vscode-files
+.vscode/
+
+# git-files
+.git/
+
+# db-file
+db.sqlite3
+
+# __pycache__
+__pycache__/
+*/__pycache__/
