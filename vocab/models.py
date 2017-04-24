@@ -33,7 +33,7 @@ class Vocabulary(models.Model):
     # attributes
     word = models.CharField(max_length=200)
     translation = models.CharField(max_length=200)
-    forms = models.CharField(max_length=200, default="")
+    forms = models.CharField(max_length=200, default="", blank=True)
     forms_enabled = models.BooleanField(default=False)
 
     # object's representation
