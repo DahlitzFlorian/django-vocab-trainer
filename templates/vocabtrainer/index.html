@@ -4,6 +4,24 @@
     <meta charset="utf-8">
 </head>
 <body>
-    <h1>Django-Vocab-Trainer</h1>
+    <header>
+        <h1>Django-Vocab-Trainer</h1>
+        <span id="top-nav">
+            <a href="{% url 'accounts:registration_register' %}">Sign up</a>
+            <a href="{% url 'accounts:auth_login' %}">Sign in</a>
+        </span>
+    </header>
+    <section>
+        <h1>Short description</h1>
+        <p>
+            This is an application which lets you create learn-sets including
+            vocabulary or definitions you want to learn.<br>
+            To use it you only have to sign up an account (you will be logged
+            in automatically) or login to an existing one.
+        </p>
+        <p>
+            The project itself is available on <a href="https://github.com/DahlitzFlorian/django-vocab-trainer">Github</a>
+            so you even can fork it, create issues or contribute to this project.
+        </p>
 </body>
 </html>
