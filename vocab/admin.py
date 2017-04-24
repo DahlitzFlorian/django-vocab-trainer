@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Learnset, Vocabulary
+
+
+admin.site.register(Learnset)
+admin.site.register(Vocabulary)
