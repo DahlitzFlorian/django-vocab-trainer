@@ -1,7 +1,13 @@
+{% load static %}
 <!DOCTYPE html>
 <head>
     <title>Django-Vocab-Trainer</title>
     <meta charset="utf-8">
+
+    <!-- Other Stylesheets -->
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css" type="text/css">
+    <!-- Own Stylesheets -->
+    <link rel="stylesheet" href="{% static 'vocab/style.css' %}" type="text/css">
 </head>
 <body>
     <header>
@@ -11,6 +17,45 @@
         </span>
     </header>
     <section>
+        <table>
+            <tbody>
+                <tr>
+                    <td id="f19" ></td>
+                    <td id="f20" ></td>
+                    <td id="f21" ></td>
+                    <td id="f22" ></td>
+                    <td id="f23" ></td>
+                    <td id="f24" ></td>
+                    <td id="f25" class="control"></td>
+                </tr>
+                <tr>
+                    <td id="f14" ></td>
+                    <td id="f15" ></td>
+                    <td id="f16" ></td>
+                    <td id="f17" ></td>
+                    <td id="f18" class="control"></td>
+                </tr>
+                <tr>
+                    <td id="f9" ></td>
+                    <td id="f10" ></td>
+                    <td id="f11" ></td>
+                    <td id="f12" ></td>
+                    <td id="f13" class="control"></td>
+                </tr>
+                <tr>
+                    <td id="f4" ></td>
+                    <td id="f5" ></td>
+                    <td id="f6" ></td>
+                    <td id="f7" ></td>
+                    <td id="f8" class="control"></td>
+                </tr>
+                <tr>
+                    <td id="f1" ></td>
+                    <td id="f2" ></td>
+                    <td id="f3" class="control"></td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 </body>
 </html>

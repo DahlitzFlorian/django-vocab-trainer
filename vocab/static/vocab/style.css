@@ -1,3 +1,31 @@
 /*
     vocab-application styles
 */
+body {
+    width: 100%;
+    text-align: center;
+}
+
+/*
+    table for training
+*/
+table {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+table tbody tr {
+    width: 100%;
+}
+
+table tbody tr td {
+    width: 15%;
+    height: 15%;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.control {
+    border: 3px solid black;
+}
