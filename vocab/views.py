@@ -19,11 +19,13 @@ class IndexView(generic.ListView):
         return Learnset.objects.all().order_by('-creation_date')
 
 
-class TrainingView(generic.TemplateView):
+class TrainingView(generic.DetailView):
     """
     Shows trainings-session
     """
     template_name = 'vocab/training.html'
 
-    def get_queryset(self, learnset_id):
-        pass
+    context_object_name = 'learnset'
+
+    def get_queryset(self):
+        return Learnset.objects.all()
